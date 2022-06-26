@@ -1,0 +1,71 @@
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    min-height: 30vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2rem;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
+.description {
+    margin: 2rem 0;
+    line-height: 1;
+    font-size: 1rem;
+}
+
+.label {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+.input {
+    margin-top: 10px;
+    width: 50vw;
+    height: 40px;
+    border-radius: 5px;
+    border-width: thin;
+    border-color: grey;
+}
+
+.helpText {
+    font-size: small;
+    color: grey;
+}
+
+.subsequentDivs {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        width: 100%;
+        flex-direction: column;
+    }
+}
